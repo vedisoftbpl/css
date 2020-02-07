@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS word spacing</title>
+<style type="text/css"> 
+    p.one {
+        word-spacing: 20px;
+    }
+    p.two {
+        width: 150px;
+        word-spacing: 20px;
+        text-align: justify;
+    }
+    p.three {
+        word-spacing: 20px;
+        white-space: pre;
+    }      
+</style>
+</head>
+<body>
+    <p class="one">This is a normal paragraph.</p>
+    <p class="two">Note that spaces between the words of this paragraph are varying in order to justify the text even if the value of <code>word-spacing</code> property is set to 20px.</p>
+    <p class="three">
+      This
+        is a
+          paragraph
+            with  preserved  whitespace.
+    </p>
+</body>
+</html>                            
